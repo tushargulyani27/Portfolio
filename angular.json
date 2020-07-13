@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "PortfolioApp"
+    }
+  },
+  "defaultProject": "PortfolioApp",
+  "cli": {
+    "analytics": "7f40a0a9-c692-4742-b9b1-6244026e4b80"
+  }
 }
