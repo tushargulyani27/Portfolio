@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~animate.css/animate.min.css';
+
+@font-face {
+    font-family: 'Poppin';
+    src: url('assets/fonts/Poppins-Medium.woff2') format('woff2'), url('assets/fonts/Poppins-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('assets/fonts/Poppins-Medium.woff2') format('woff2'), url('assets/fonts/Poppins-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-Bold.woff2') format('woff2'), url('assets/fonts/Poppins-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('assets/fonts/Poppins-Bold.woff2') format('woff2'), url('assets/fonts/Poppins-Bold.woff') format('woff');
+}
+
+body {
+    font-family: 'Poppins';
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins-Bold';
+}
+p {
+    font-family: 'Poppins-Medium';
+    font-size: 14px;
+}
